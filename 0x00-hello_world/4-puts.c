@@ -1,11 +1,12 @@
-#include <studio.h>
+#include<studio.h>
+
 /**
-* main - Entry point 
+* main - Entry point
 *
-* Return: always 0
-*/
+* Return: Always 0
+*/ 
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle");
+	printf("Programming is like building a multilingual puzzle,\n");
 	return (0);
 }
