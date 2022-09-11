@@ -1,11 +1,21 @@
-#include <studio.h>
+#include <stdio.h>
+
 /**
- * main - Entry point
+
+ * main - Print a pharse
+
  *
- * Return: Always 0 (Sucess)
+
+ * Return: 0
+
  */
+
 int main(void)
+
 {
-printf("with proper grammar, but the outcome is a piece of art,\n");
-return (0);
+
+	printf("%s\n", "with proper grammar, but the outcome is a piece of art,");
+
+	return (0);
+
 }
