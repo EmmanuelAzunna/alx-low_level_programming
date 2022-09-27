@@ -2,19 +2,19 @@
 
 /**
  * _memset - fills a memory block with a constant byte 
- * @s: address to memory block
- * @b: char to be used 
- * @n: number of bytes to be used
+ * @s: memory space to be filled
+ * @b: byte to fill with
+ * @n: number of spaces to fill
  *
- * Return: pointer to the memory block 
+ * Return: pointer to the memory area s
  */
-
 char *_memset(char *s, char b, unsigned int n)
 {
-	while (n)
+	unsigned int i;
+
+	for (i = 0; i < n; i++)
 	{
-		s[n - 1] = b;
-		n--;
+		*(s + i) = b;
 	}
 	return (s);
 }
