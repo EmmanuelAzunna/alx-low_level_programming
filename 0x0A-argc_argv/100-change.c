@@ -22,6 +22,14 @@ printf("Error\n");
 return (1);
 }
 
+total - atoi(argv[1]); /*Convert str to int*/
+
+if (total <= 0)
+{
+printf("0\n");
+return (0);
+}
+
 /*Declaring While*/
 
 while (coins[position] != '\0')
